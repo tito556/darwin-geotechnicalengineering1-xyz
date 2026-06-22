@@ -3,7 +3,7 @@
   "short_name": "Geotechnical",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#0A2540",
+  "theme_color": "#7C2D12",
   "background_color": "#FFFFFF",
   "icons": [
     {
@@ -11,5 +11,10 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "lang": "en",
+  "orientation": "portrait-secondary",
+  "scope": "/",
+  "description": "Professional geotechnical services in Darwin, Australia. Soil studies, testing and technical consulting.",
+  "id": "/darwin-6199"
 }

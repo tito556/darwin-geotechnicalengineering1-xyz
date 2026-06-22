@@ -1,246 +1,272 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Slopes & Walls in Darwin – Australia</title>
-<meta name="description" content="Darwin’s seasonally saturated, deeply weathered lateritic profiles and reactive clays demand rigorous slope and wall engineering under the Northern Territo">
-<link rel="canonical" href="https://darwin.geotechnicalengineering1.xyz/slopes/">
-<!-- Open Graph -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Slopes & Walls in Darwin – Australia">
-<meta property="og:description" content="Darwin’s seasonally saturated, deeply weathered lateritic profiles and reactive clays demand rigorous slope and wall engineering under the Northern Territo">
-<meta property="og:url" content="https://darwin.geotechnicalengineering1.xyz/slopes/">
-<meta property="og:site_name" content="Geotechnicalengineering1">
-<meta property="og:image" content="https://darwin.geotechnicalengineering1.xyz/img/anclajes-4.webp">
-<meta property="og:locale" content="en_AU">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Slopes & Walls in Darwin – Australia">
-<meta name="twitter:description" content="Darwin’s seasonally saturated, deeply weathered lateritic profiles and reactive clays demand rigorous slope and wall engineering under the Northern Territo">
-<style>
-:root {
-    --primary: #8B5CF6;
-    --accent: #A78BFA;
-    --dark: #09090B;
-    --bg: #FAFAFA;
-    --text: #18181B;
-    --font-h: 'Playfair Display', 'Segoe UI', sans-serif;
-    --font-b: 'Lora', 'Segoe UI', sans-serif;
+<!DOCTYPE html><html lang="en"><head><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Slopes & Walls in Darwin – Australia</title><meta name="description" content="In Darwin's challenging tropical environment, the category of Slopes & Walls encompasses the critical geotechnical"><link rel="canonical" href="https://darwin.geotechnicalengineering1.xyz/slopes/"><meta property="og:type" content="website"><meta property="og:title" content="Slopes & Walls in Darwin – Australia"><meta property="og:description" content="In Darwin's challenging tropical environment, the category of Slopes & Walls encompasses the critical geotechnical"><meta property="og:url" content="https://darwin.geotechnicalengineering1.xyz/slopes/"><meta property="og:site_name" content="Geotechnicalengineering1"><meta property="og:image" content="https://darwin.geotechnicalengineering1.xyz/img/estabilidad-taludes-2.webp"><meta property="og:locale" content="en_AU"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Slopes & Walls in Darwin – Australia"><meta name="twitter:description" content="In Darwin's challenging tropical environment, the category of Slopes & Walls encompasses the critical geotechnical engineering disciplines required to desi"><style>/*afx*/@media (max-width: 900px) {
+.sidebar { display: none; }
+.content-area { flex-direction: column; }
+.container { padding: 1rem; }
+.header-top { flex-direction: column; text-align: center; }
+main { padding: 1.5rem; }
 }
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
-a { color: var(--primary); text-decoration: none; }
-h1, h2, h3, h4 { font-family: var(--font-h); }
-
-.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
 .sidebar {
-    width: 240px; background: var(--dark); color: white; flex-shrink: 0;
-    border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
-    max-height: calc(100vh - 2rem); overflow-y: auto;
+width: 240px; background: var(--dark); color: white; flex-shrink: 0;
+border-radius: 10px; position: sticky; top: 1rem; overflow: hidden;
+max-height: calc(100vh - 2rem); overflow-y: auto;
 }
-/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
-.sidebar { padding: .5rem 0; }
 /* Pattern moderno cat-name + cat-toggle (REGLA 30b) */
 .sidebar .cat-item { border-top: 1px solid rgba(255,255,255,0.04); }
-.sidebar .cat-row {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
-    transition: background .15s;
-}
-.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
-.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
-.sidebar .cat-name:hover { color: #c9a961; }
-.sidebar .cat-toggle {
-    background: none; border: 0; color: inherit; cursor: pointer;
-    padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
-}
-.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
-.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
-.sidebar .cat-sub {
-    background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
-}
-.sidebar .cat-sub[hidden] { display: none; }
-.sidebar .cat-sub a {
-    display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
-    font-size: .78rem; transition: all .15s; text-decoration: none;
-    border-left: 2px solid transparent;
-}
 .sidebar .cat-sub a:hover { color: #c9a961; background: rgba(201,169,97,0.06); border-left-color: #c9a961; }
-.sidebar .home {
-    display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
-    font-size: .85rem; font-weight: 600;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-    text-decoration: none;
-}
-.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
-
-header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
-.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
-.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
-.header-contact a:hover { color: white; }
-header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
-.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
-main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
-main section { margin-bottom: 1.5rem; }
-main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
-main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
-main p { margin-bottom: 1rem; color: #334155; }
-
-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
-th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
-th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
-tr:nth-child(even) { background: #f8fafc; }
-
-.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
-.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
-.servicio:hover { border-color: var(--primary); }
-.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
-.servicio p { margin: 0; font-size: .9rem; color: #475569; }
-
-details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
-summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
-summary::-webkit-details-marker { display: none; }
-summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
-details[open] summary::before { content: '− '; }
-summary:hover { background: rgba(0,0,0,0.02); }
-details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
-
-.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
-.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
-.cta .whatsapp-btn {
-    display: inline-block; background: #25D366; color: white;
-    padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
-    margin-bottom: 1.25rem; font-size: 1rem;
-}
-.cta .whatsapp-btn:hover { background: #1eb853; }
-.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
-.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
-.cta .contacto-line a { color: white; text-decoration: underline; }
-
 footer { text-align: center; padding: 2rem; font-size: .8rem; color: #94a3b8; background: var(--dark); color: rgba(255,255,255,0.7); }
-footer a { color: rgba(255,255,255,0.85); }
-
-#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
-
-@media (max-width: 900px) {
-    .sidebar { display: none; }
-    .content-area { flex-direction: column; }
-    .header-top { flex-direction: column; text-align: center; }
-    main { padding: 1.5rem; }
-    .container { padding: 1rem; }
+.content-area { display: flex; gap: 1.5rem; align-items: flex-start; }
+main h3 { color: var(--dark); font-size: 1.05rem; margin: 1.5rem 0 .5rem; font-weight: 600; }
+.servicio h3 { margin: 0 0 .5rem; color: var(--dark); font-size: .95rem; }
+h1, h2, h3, h4 { font-family: var(--font-h); }
+header h1 { font-size: clamp(1.5rem, 3vw, 2.2rem); line-height: 1.3; color: white; font-weight: 700; }
+.normas { background: rgba(0,0,0,0.03); padding: 1rem 1.5rem; border-radius: 8px; border-left: 4px solid var(--primary); margin: 1.5rem 0; font-size: .9rem; }
+.cta .whatsapp-btn:hover { background: #1eb853; }
+.sidebar .cat-row {
+display: flex; justify-content: space-between; align-items: center;
+padding: .65rem 1rem; color: rgba(255,255,255,0.85); font-size: .85rem; font-weight: 500;
+transition: background .15s;
 }
-</style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://darwin.geotechnicalengineering1.xyz/slopes/", "url": "https://darwin.geotechnicalengineering1.xyz/slopes/", "name": "Slopes & Walls in Darwin – Australia", "inLanguage": "en", "description": "Darwin’s seasonally saturated, deeply weathered lateritic profiles and reactive clays demand rigorous slope and wall engineering under the Northern Territo", "isPartOf": {"@type": "WebSite", "@id": "https://darwin.geotechnicalengineering1.xyz/#website", "url": "https://darwin.geotechnicalengineering1.xyz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://darwin.geotechnicalengineering1.xyz/"}, {"@type": "ListItem", "position": 2, "name": "Slopes & Walls", "item": "https://darwin.geotechnicalengineering1.xyz/slopes/"}]}, {"@type": "ItemList", "name": "Slopes & Walls", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://darwin.geotechnicalengineering1.xyz/anchors/", "name": "Active/passive anchor design"}, {"@type": "ListItem", "position": 2, "url": "https://darwin.geotechnicalengineering1.xyz/retaining-walls/", "name": "Retaining wall design"}, {"@type": "ListItem", "position": 3, "url": "https://darwin.geotechnicalengineering1.xyz/slope-stability/", "name": "Slope stability analysis"}]}]}</script><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#7C2D12"><link rel="icon" type="image/svg+xml" href="/img/favicon.svg"><link rel="apple-touch-icon" href="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head>
-<body>
+.servicio:hover { border-color: var(--primary); }
+footer a { color: rgba(255,255,255,0.85); }
+details[open] summary::before { content: '− '; }
+.sidebar .cat-sub[hidden] { display: none; }
+.sidebar .cat-toggle[aria-expanded="true"] .cat-arrow { transform: rotate(180deg); display: inline-block; }
+* { margin:0; padding:0; box-sizing:border-box; }
+.sidebar nav .home:hover { background: rgba(255,255,255,0.08); }
+.container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+main section { margin-bottom: 1.5rem; }
+header { background: var(--dark); color: white; padding: 1.5rem 0 2rem; }
+summary::before { content: '+ '; color: var(--primary); font-weight: 700; }
+.cta { background: var(--dark); color: white; padding: 2rem; border-radius: 10px; margin: 2rem 0; text-align: center; }
+#mapa-ciudad { height: 240px; max-width: 630px; margin: 1.5rem auto; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+.cta .whatsapp-btn {
+display: inline-block; background: #25D366; color: white;
+padding: .75rem 1.75rem; border-radius: 8px; font-weight: 600;
+margin-bottom: 1.25rem; font-size: 1rem;
+}
+main p { margin-bottom: 1rem; color: #334155; }
+tr:nth-child(even) { background: #f8fafc; }
+summary { padding: 1rem 1.25rem; cursor: pointer; font-weight: 500; color: var(--dark); background: #f8fafc; list-style: none; }
+.sidebar .cat-row:hover { background: rgba(255,255,255,0.08); }
+:root {
+--primary: #8B5CF6;
+--accent: #A78BFA;
+--dark: #09090B;
+--bg: #FAFAFA;
+--text: #18181B;
+--font-h: 'Playfair Display', 'Segoe UI', sans-serif;
+--font-b: 'Lora', 'Segoe UI', sans-serif;
+}
+summary::-webkit-details-marker { display: none; }
+.sidebar .cat-arrow { display: inline-block; transition: transform .2s; }
+.cta .contacto-line a { color: white; text-decoration: underline; }
+/* FIX 2026-04-18: selectores sin 'nav' para coincidir con el HTML real generado */
+.sidebar { padding: .5rem 0; }
+main { background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.06); margin-bottom: 2rem; flex: 1; min-width: 0; }
+.sidebar .home {
+display: block; padding: .65rem 1rem; color: rgba(255,255,255,0.9);
+font-size: .85rem; font-weight: 600;
+border-bottom: 1px solid rgba(255,255,255,0.1);
+text-decoration: none;
+}
+.servicios-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.sidebar .cat-toggle {
+background: none; border: 0; color: inherit; cursor: pointer;
+padding: .2rem .4rem; font-size: .65rem; transition: transform .2s;
+}
+.sidebar .cat-sub a {
+display: block; padding: .4rem 1rem .4rem 1.75rem; color: rgba(255,255,255,0.7);
+font-size: .78rem; transition: all .15s; text-decoration: none;
+border-left: 2px solid transparent;
+}
+.header-contact a:hover { color: white; }
+summary:hover { background: rgba(0,0,0,0.02); }
+.cta .contacto-line { font-size: 1rem; margin: .5rem 0; }
+a { color: var(--primary); text-decoration: none; }
+body { font-family: var(--font-b); color: var(--text); background: var(--bg); line-height: 1.75; font-size: 15px; }
+.header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+.servicio { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; transition: border-color .2s; }
+th { background: var(--dark); color: white; font-weight: 600; font-family: var(--font-h); font-size: .85rem; text-transform: uppercase; letter-spacing: .05em; }
+th, td { padding: .85rem 1rem; text-align: left; border-bottom: 1px solid #e2e8f0; }
+main h2 { color: var(--dark); font-size: 1.35rem; margin: 2rem 0 1rem; padding-bottom: .5rem; border-bottom: 2px solid #e2e8f0; font-weight: 600; }
+details { margin-bottom: .75rem; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden; }
+.servicio p { margin: 0; font-size: .9rem; color: #475569; }
+.header-contact a { color: rgba(255,255,255,0.85); font-size: .9rem; }
+.sidebar .cat-name:hover { color: #c9a961; }
+.cta h3 { font-size: 1.3rem; font-weight: 700; margin-bottom: 1.25rem; color: white; border: none; padding: 0; }
+details p { padding: .75rem 1.25rem; font-size: .9rem; color: #475569; margin: 0; }
+.cta .whatsapp-sub { font-size: .85rem; opacity: .85; margin-bottom: 1rem; }
+table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .9rem; }
+.sidebar .cat-name { color: inherit; text-decoration: none; flex: 1; }
+.sidebar .cat-sub {
+background: rgba(0,0,0,0.15); display: flex; flex-direction: column;
+}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#7C2D12"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style>/*afx*//* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+position: sticky !important;
+top: 0 !important;
+z-index: 1010 !important;
+}
+.leaflet-control { z-index: 800 !important; }
+header.hero, .hero { position: relative !important; }
+.leaflet-container { z-index: 1 !important; }
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+z-index: 1100 !important;
+}</style><style>/*afx*/p a[href^="/"]:not(.cta-btn):not(.hero-cta):hover{text-decoration-color:currentColor;opacity:.85}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta){color:var(--accent,#7C2D12) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}</style><style>/*afx*/@media (max-width:1100px){
+.nav-item{font-size:.7rem !important}
+.navbar .nav{gap:.4rem !important}
+.cta-btn{padding:.4rem .65rem !important;font-size:.68rem !important}
+}
+.logo-text .main{font-size:.95rem !important}
+.nav-item.has-dd .nav-cat-link{padding:.4rem .25rem !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+.cta-btn{padding:.45rem .8rem !important;font-size:.72rem !important;letter-spacing:.03em !important}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+/* Compactar navbar para que el menú entre completo */
+.navbar{padding:.65rem 1rem !important}
+.logo-text .sub{font-size:.72rem !important}
+.navbar .nav{gap:.55rem !important}
+.nav-item.has-dd .nav-arrow{font-size:.7rem !important;margin-left:.15rem !important}
+/* Para layouts aberdeen/classic con clase distinta */
+header nav a,.menu a{font-size:.78rem !important}</style><style>/*afx*/@media (min-width:901px){
+aside{position:relative}
+aside+main,aside~main,aside~div>main{margin-left:0}
+.content-area{display:flex;gap:1rem}
+}
+@media (max-width:900px){
+aside{width:100% !important;position:static !important;height:auto !important}
+.navbar{flex-wrap:wrap}
+}
+body{overflow-x:clip;max-width:100vw}
+body>*{max-width:100vw}</style><style>/*afx*/@media (max-width:900px){body{padding-top:90px}}
+nav.navbar,.header-top,.main-header{position:fixed !important;top:0 !important;left:0 !important;right:0 !important;z-index:1010 !important}
+.hero,.hero-inner,header.hero{padding-top:1rem !important}
+body{padding-top:60px}</style><style>/*afx*/aside .cat-sub-wrap a:hover{background:rgba(127,127,127,.08) !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+/* Bg sutil que funciona en cualquier fondo */
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Adaptativo: hover preserva color heredado (white en dark sidebar, dark en light) */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}</style><style>/*afx*/.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.cat-arrow{display:inline-block}
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}</style><style>/*afx*/
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+</style><style>/*afx*//* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+body>*{max-width:100vw}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+.navbar .nav{gap:.55rem !important}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}</style><style>/*afx*//* cat-row interno: SI flex para alinear name + toggle */
+.cat-row {
+display: flex !important;
+flex-wrap: nowrap !important;
+align-items: center !important;
+justify-content: space-between !important;
+width: 100% !important;
+}
+/* Sub-item links */
+.cat-sub-wrap a, .cat-sub a, .nav-cat-sub a {
+display: block !important;
+width: 100% !important;
+font-size: .82rem !important;
+line-height: 1.25 !important;
+padding: .35rem 1rem .35rem 1.8rem !important;
+white-space: normal !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+box-sizing: border-box !important;
+}
+.cat-toggle, .cat-arrow {
+flex-shrink: 0 !important;
+order: 2 !important;
+}
+.cat-name {
+flex: 1 1 auto !important;
+min-width: 0 !important;
+word-break: normal !important;
+overflow-wrap: break-word !important;
+white-space: normal !important;
+order: 1 !important;
+}
+/* cat-sub-wrap: full width abajo */
+.cat-sub-wrap, .cat-sub, .nav-cat-sub {
+flex-basis: 100% !important;
+width: 100% !important;
+max-width: 100% !important;
+order: 3 !important;
+position: static !important;
+background: rgba(0,0,0,.15) !important;
+padding: .4rem 0 .8rem !important;
+}
+/* cat-item: BLOCK (no flex) — children flow normal y cat-sub-wrap toma full width */
+.cat-item, details {
+display: block !important;
+position: relative !important;
+}</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebPage", "@id": "https://darwin.geotechnicalengineering1.xyz/slopes/", "url": "https://darwin.geotechnicalengineering1.xyz/slopes/", "name": "Slopes & Walls in Darwin – Australia", "inLanguage": "en", "description": "In Darwin's challenging tropical environment, the category of Slopes & Walls encompasses the critical geotechnical engineering disciplines required to desi", "isPartOf": {"@type": "WebSite", "@id": "https://darwin.geotechnicalengineering1.xyz/#website-e86d", "url": "https://darwin.geotechnicalengineering1.xyz"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://darwin.geotechnicalengineering1.xyz/"}, {"@type": "ListItem", "position": 2, "name": "Slopes & Walls", "item": "https://darwin.geotechnicalengineering1.xyz/slopes/"}]}, {"@type": "ItemList", "name": "Slopes & Walls", "itemListElement": [{"@type": "ListItem", "position": 1, "url": "https://darwin.geotechnicalengineering1.xyz/anchors/", "name": "Active/passive anchor design"}, {"@type": "ListItem", "position": 2, "url": "https://darwin.geotechnicalengineering1.xyz/retaining-walls/", "name": "Retaining wall design"}, {"@type": "ListItem", "position": 3, "url": "https://darwin.geotechnicalengineering1.xyz/slope-stability/", "name": "Slope stability analysis"}]}]}</script><style>/*afx*/.nav-item.has-dd:nth-last-child(-n+5) .dd{left:auto;right:-1rem}</style><style>/*afx*//* Cat-toggle sin caja */
+.cat-toggle{width:auto !important;min-width:32px;border:none !important;border-left:none !important;background:transparent !important;box-shadow:none !important;padding:.3rem .5rem !important}
+aside .cat-name,aside .sb-home,aside nav a{color:inherit}
+body>*{max-width:100vw}
+/* Inline links visibles en prosa */
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn){color:var(--accent,#1d4ed8) !important;text-decoration:underline !important;text-decoration-color:rgba(29,78,216,.45);text-underline-offset:2px;font-weight:600}
+p a[href^="/"]:not(.cta-btn):not(.hero-cta):not(.nav-contact-btn):hover{text-decoration-color:currentColor;opacity:.85}
+.navbar .nav{gap:.55rem !important}
+/* Nav-arrow sin caja */
+.nav-arrow,.nav-arrow:hover,.nav-arrow:focus{background:transparent !important;border:none !important;outline:none !important;padding:0 .15rem !important;color:inherit !important;cursor:pointer !important;box-shadow:none !important}
+/* Navbar compacto */
+.navbar{padding:.65rem 1rem !important}
+.cat-toggle:hover{background:rgba(127,127,127,.12) !important}
+aside .cat-name:hover,aside .sb-home:hover{background:rgba(127,127,127,.12) !important}
+/* Sidebar hover adaptive */
+aside .cat-name:hover,aside .sb-home:hover,aside .cat-sub-wrap a:hover,
+aside nav a:hover{color:inherit !important;text-decoration:underline !important;text-underline-offset:3px}
+.nav-item{font-size:.74rem !important;letter-spacing:.01em !important}
+.logo-box,.brand-name,.brand{font-size:.82rem !important}
+/* Layout defensive */
+body{overflow-x:clip;max-width:100vw}/*sbhfix*/aside .sb-home{color:#FFF !important}</style><script>(function(){var L=0;function load(){if(L)return;L=1;!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq("init","384176023222929");fbq("track","PageView");}["scroll","mousemove","touchstart","keydown","click"].forEach(function(e){window.addEventListener(e,load,{passive:!0,once:!0})});setTimeout(load,4000);})();</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=384176023222929&ev=PageView&noscript=1"/></noscript>  <link rel="preload" as="image" href="/img/estabilidad-taludes-2.webp" fetchpriority="high">
 
-<header>
-    <div class="container">
-        <div class="header-top">
-            <div>
-                <div style="display:inline-flex;align-items:center;gap:10px;"><div style="width:44px;height:44px;border-radius:50%;background:#8B5CF6;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;color:#FAFAFA;font-size:19px;">DA</div><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:22px;">Darwin</span></div>
-                <div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Darwin, Australia</div>
-            </div>
-            <div class="header-contact">
-                <a href="mailto:contact@geotechnicalengineering1.xyz">contact@geotechnicalengineering1.xyz</a>
-            </div>
-        </div>
-        <nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Home</a></li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Slopes & Walls</li></ol></nav>
-        <h1>Slopes & Walls in Darwin</h1>
-    </div>
-</header>
-
-<div class="container">
-    <div class="content-area">
-        <aside class="sidebar">
-            <nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">In-Situ Testing</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ Testing"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="/laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/atterberg-limits/">Atterberg limits</a><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="/foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/piles/">Pile foundation design</a></div></div><div class="cat-item" data-cat="slopes"><div class="cat-row"><a href="/slopes/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a><a href="/slope-stability/">Slope stability analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="/ground-improvement/" class="cat-name">Ground improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Ground improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a href="/seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a><a href="/liquefaction/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="road-geotechnics"><div class="cat-row"><a href="/road-geotechnics/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-road/">CBR study for road design</a><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Underground Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Underground Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div></nav>
-        </aside>
-        <main>
-            <section><p>Darwin’s seasonally saturated, deeply weathered lateritic profiles and reactive clays demand rigorous slope and wall engineering under the Northern Territory’s *Geotechnical Design Standards* (aligned with AS 4678). This category addresses stability in cut-and-fill batters, creek bank protection, and structural earth retention against monsoon-driven pore pressures. Our local approach integrates <a href="slope-stability">slope stability analysis</a> using effective-stress parameters and rainfall infiltration models, paired with targeted <a href="anchors">active/passive anchor design</a> for reinforcing colluvial slopes or weathered rock faces where space is constrained.</p>
-
-<p>Infrastructure corridors, rural residential subdivisions, and mine-site bunds routinely trigger these assessments, especially where excavations approach property boundaries or natural drainage lines. We support developers and civil contractors with <a href="retaining-walls">retaining wall design</a>—from cantilevered footings to anchored shotcrete—ensuring long-term serviceability in Darwin’s aggressive tropical environment. Every design accounts for cyclic wetting-drying, termite attack, and high groundwater fluctuations typical of the Top End.</p></section>
-
-            <blockquote style="border-left:4px solid #8B5CF6;background:rgba(0,0,0,.03);padding:1rem 1.25rem;margin:1.5rem 0 1.5rem 1rem;font-style:italic;color:#333;font-size:1.05rem;line-height:1.55;border-radius:0 6px 6px 0">In Darwin's lateritic profile, the transition from Grade V to Grade III weathered rock often dictates the anchor bond length, not the structural tendon capacity.</blockquote>
-
-            
-
-            <section>
-                <h2>Technical details of the service in Darwin</h2>
-                <div>The monsoonal climate of the Top End creates a dual challenge for anchor design: six months of intense rainfall saturating the surface soils, followed by a long dry season where desiccation cracks can open several meters deep. This wet-dry cycle demands a rigorous approach to tendon corrosion protection, typically specifying Class II encapsulation per AS 4678 for permanent anchors in Darwin’s highly reactive clays. <br><br>Key design considerations we apply: <ul><li>Creep behavior verification in over-consolidated claystone layers found below 8 m depth in the Darwin CBD.</li><li>Cyclonic uplift resistance for tie-down anchors, often integrated with <a href="/excavation-monitoring/">deep excavation monitoring</a> when multi-level anchoring is required near existing structures.</li><li>Load testing protocols including proof and suitability tests on sacrificial anchors before production drilling begins.</li></ul> The bond length is calculated using the effective stress method, but we adjust the skin friction values based on the remoulded strength of Darwin’s silty clays, which can lose up to 40% of their undisturbed cohesion during drilling.</div>
-            </section>
-
-            <figure style="margin:2rem auto;text-align:center;max-width:60%"><img src="/img/anclajes-4.webp" alt="Active and Passive Anchor Design in Darwin: Ground Anchors for Tropical Soil Conditions" width="600" height="300" loading="lazy" decoding="async" style="width:100%;max-height:160px;object-fit:cover;border-radius:8px"><figcaption style="font-size:.78rem;color:#64748b;margin-top:.4rem">Active and Passive Anchor Design in Darwin: Ground Anchors for Tropical Soil Conditions</figcaption></figure>
-
-            <div style="max-width:700px;margin:1.5rem auto;border-left:4px solid #8B5CF6;border-radius:6px;overflow:hidden;background:#FFF;box-shadow:0 1px 3px rgba(0,0,0,.05)"><table style="width:100%;border-collapse:collapse;font-size:.92rem"><thead><tr style="background:#8B5CF6;color:#FFF"><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Parameter</th><th style="padding:.75rem 1rem;text-align:left;font-weight:600">Typical value</th></tr></thead><tbody><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Design Standard</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">AS 4678:2002 + Amdt 1</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Load Combination</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">AS/NZS 1170.0, 1170.2 (Region C/D)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Typical Borehole Depth</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">12 to 25 m (anchor investigation)</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Corrosion Protection</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Class I or II (double corrugated sheath)</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Load Test Method</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Cyclic and creep load-hold steps</td></tr><tr style="background:#FFFFFF"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Free Length Minimum</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">4.5 m or deeper per slip surface analysis</td></tr><tr style="background:#FAFAF7"><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE">Soil-Rock Interface</td><td style="padding:.7rem 1rem;border-bottom:1px solid #EEE;color:#222;font-weight:500">Phyllite, siltstone, lateritic duricrust</td></tr></tbody></table></div>
-
-            
-
-            <section>
-                <h2>Risks and considerations in Darwin</h2>
-                <p>Darwin’s urban development evolved rapidly after Cyclone Tracy in 1974, with much of the northern suburbs built on estuarine mud flats and reclaimed mangrove swamps. These compressible soils can undergo long-term settlement that imposes downdrag forces on passive anchors if the free length is not properly isolated. The biggest technical risk we encounter is the misidentification of the active failure wedge in excavations deeper than 6 meters; in the Darwin context, where the residual clay can appear competent but contains relict joints from the parent rock, a planar failure surface can form unexpectedly. To mitigate this, we often pair the anchor design with a <a data-interlink="1" href="/slope-stability/">slope stability analysis</a> that models the relict joint sets measured during the geotechnical investigation, ensuring the bonded length extends well beyond the critical slip circle.</p>
-            </section>
-
-            
-    <section class="block mid-cta" style="padding:2rem 0">
-      <div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center">
-        <h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3>
-        <p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p>
-        <div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering1.xyz" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering1.xyz</a></div>
-      </div>
-    </section>
-
-            <div class="normas">
-                <strong>Applicable standards:</strong> AS 4678:2002, AS/NZS 1170.0:2002, AS/NZS 1170.2:2021, AS 1726:2017
-            </div>
-
-            <section>
-                <h2>Our services</h2>
-                <p>We provide anchor design and verification services for projects across the greater Darwin area, from temporary shoring for service trenches to permanent retention for basements in the Waterfront Precinct. Each design is accompanied by a detailed construction specification.</p>
-                <style>.servicios-grid{display:flex;flex-wrap:wrap;gap:1rem;justify-content:flex-start}.servicios-grid .servicio{flex:0 0 calc(50% - .5rem);min-width:260px;padding:1rem 1.2rem;border:1px solid #E5E7EB;border-radius:10px;background:#FFFFFF;position:relative;transition:border-color .18s,box-shadow .18s,transform .18s}.servicios-grid a.servicio-link{display:block;text-decoration:none;color:inherit;cursor:pointer}.servicios-grid a.servicio-link:hover{border-color:#8B5CF6;box-shadow:0 4px 14px rgba(0,0,0,.08);transform:translateY(-2px)}.servicios-grid a.servicio-link:hover h3{color:#8B5CF6}.servicio-arrow{position:absolute;right:1rem;bottom:.8rem;color:#8B5CF6;font-weight:700;opacity:.55;transition:transform .18s,opacity .18s}.servicios-grid a.servicio-link:hover .servicio-arrow{transform:translateX(4px);opacity:1}</style><div class="servicios-grid"><div class="servicio"><h3>Temporary Ground Anchors</h3><p>Design of strand or bar anchors for sheet pile and soldier pile excavation support during the dry season construction window (May-October). Includes tendon selection for reuse where possible.</p></div><div class="servicio"><h3>Permanent Tie-Down Anchors</h3><p>Post-tensioned anchors for uplift resistance on foundations subject to cyclonic wind loads, with full encapsulation and monitoring access tubes for long-term load verification.</p></div><div class="servicio"><h3>Anchor Load Testing & Verification</h3><p>On-site supervision of proof, suitability, and acceptance tests per AS 4678, with load-displacement plotting and residual load assessment using lift-off checks.</p></div></div>
-            </section>
-
-            <section>
-                <h2>Frequently asked questions</h2>
-                <details><summary>What is the difference between active and passive anchors in retaining wall design?</summary><p>An active anchor is pre-tensioned to a specified lock-off load, typically 80-110% of the design working load, to actively restrain the wall and limit deflections before excavation proceeds further. A passive anchor is not prestressed; it only develops resistance as the wall moves and soil deformation occurs. In Darwin, active anchors are preferred for permanent works near sensitive structures in the CBD because they control lateral movement within 10-15 mm, whereas passive anchors might allow 30-50 mm of movement before reaching full capacity.</p></details><details><summary>What is the typical cost range for an anchor design package in Darwin?</summary><p>A full anchor design package including geotechnical interpretation, bond length calculations, and construction-ready drawings typically falls between AU$1,830 and AU$5,710, depending on the number of anchor levels, the complexity of the corrosion protection class required, and whether load testing supervision is included. Projects with multiple wall sections and varied ground conditions fall at the upper end of this range.</p></details><details><summary>How far into the rock does the bond length need to extend in Darwin's laterite profile?</summary><p>The bond length must extend a minimum distance past the theoretical failure plane, but in Darwin's lateritic profile, the key is anchoring into Grade III or better rock. The duricrust cap (Grade IV-V) has highly variable cementation and should not be relied upon for permanent bond unless proven by suitability tests. We typically design for a minimum 5-meter bond length in the underlying phyllite or siltstone, verified by a pull-out test on a sacrificial anchor before production drilling begins.</p></details>
-            </section>
-
-            <section>
-                <h2>Coverage in Darwin</h2>
-                <link rel="stylesheet" href="/css/leaflet.css"/>
-                <div id="mapa-ciudad"></div>
-                <script src="/js/leaflet.js"></script>
-                <script>
-                    var map = L.map('mapa-ciudad').setView([-12.4604,130.841], 12);
-                    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);
-                    L.circle([-12.4604,130.841],{radius:3000,color:'#8B5CF6',fillColor:'#A78BFA',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Darwin');
-                </script>
-            </section>
-        
-<section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../anchors/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Active/passive anchor design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../retaining-walls/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Retaining wall design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../slope-stability/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Slope stability analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section></main>
-    </div>
-</div>
-
-<footer style="background:#09090B;color:rgba(255,255,255,.85);padding:3rem 1.5rem 2rem"><div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem"><div><h4 style="color:#FFF;font-size:1rem;margin:0 0 .8rem">DARWIN</h4><p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.6">Darwin, Australia</p></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">SERVICES</h4><a href="/" style="color:rgba(255,255,255,.75);text-decoration:none;display:block;padding:.25rem 0">Services</a></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">CONTACT</h4><p style="margin:0;font-size:.9rem;line-height:1.8"><a href="mailto:contact@geotechnicalengineering1.xyz" style="color:#FFF;text-decoration:none">contact@geotechnicalengineering1.xyz</a></p></div></div><div style="max-width:1100px;margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.8rem;color:rgba(255,255,255,.5)">© 2026 Geotechnicalengineering1. All rights reserved.</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong> <a href="https://www.standards.org.au/" rel="nofollow noopener" target="_blank">Standards Australia</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-05-01" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-05-01</div></footer>
-
-<script>
+<link rel="alternate" hreflang="en-AU" href="https://darwin.geotechnicalengineering1.xyz/slopes/">
+<link rel="alternate" hreflang="x-default" href="https://darwin.geotechnicalengineering1.xyz/slopes/">
+</head><body><header><div class="container"><div class="header-top"><div><div style="display:inline-flex;align-items:center;gap:10px;"><div style="width:44px;height:44px;border-radius:50%;background:#8B5CF6;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;color:#FAFAFA;font-size:19px;">DA</div><span style="font-family:'Playfair Display',sans-serif;font-weight:800;color:#fafafa;letter-spacing:-0.02em;line-height:1;font-size:22px;">Darwin</span></div><div style="color:rgba(255,255,255,0.65);font-size:.8rem;margin-top:.4rem">Darwin, Australia</div></div><div class="header-contact"><a href="mailto:contact@geotechnicalengineering1.xyz">contact@geotechnicalengineering1.xyz</a></div></div><nav aria-label="breadcrumb" style="padding:.3rem 0;font-size:.78rem;color:rgba(255,255,255,0.75)"><ol style="list-style:none;display:flex;gap:.35rem;flex-wrap:wrap;padding:0;margin:0"><li><a href="/" style="color:inherit;text-decoration:none">Home</a></li><li>›</li><li aria-current="page" style="color:rgba(255,255,255,0.95)">Slopes & Walls</li></ol></nav><h1>Slopes & Walls in Darwin</h1></div></header><div class="container"><div class="content-area"><aside class="sidebar"><nav><a href="index.html" class="home">Home</a><div class="cat-item" data-cat="investigation"><div class="cat-row"><a href="/investigation/" class="cat-name">Investigation</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Investigation"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cpt-test/">CPT (Cone Penetration Test)</a></div></div><div class="cat-item" data-cat="lab-in-situ"><div class="cat-row"><a href="/lab-in-situ/" class="cat-name">In-Situ</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir In-Situ"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/sand-cone-density/">Field density test (sand cone method)</a></div></div><div class="cat-item" data-cat="laboratory"><div class="cat-row"><a href="/laboratory/" class="cat-name">Laboratory</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Laboratory"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/atterberg-limits/">Atterberg limits</a><a href="/grain-size/">Grain size analysis (sieve + hydrometer)</a></div></div><div class="cat-item" data-cat="foundations"><div class="cat-row"><a href="/foundations/" class="cat-name">Foundations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Foundations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/piles/">Pile foundation design</a></div></div><div class="cat-item" data-cat="slopes"><div class="cat-row"><a href="/slopes/" class="cat-name">Slopes & Walls</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Slopes & Walls"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/anchors/">Active/passive anchor design</a><a href="/retaining-walls/">Retaining wall design</a><a href="/slope-stability/">Slope stability analysis</a></div></div><div class="cat-item" data-cat="ground-improvement"><div class="cat-row"><a href="/ground-improvement/" class="cat-name">Improvement</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Improvement"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/stone-columns/">Stone column design</a><a href="/vibrocompaction/">Vibrocompaction design</a></div></div><div class="cat-item" data-cat="seismic"><div class="cat-row"><a href="/seismic/" class="cat-name">Seismic</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Seismic"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/seismic-isolation/">Base isolation seismic design</a><a href="/seismic-microzonation/">Seismic microzonation</a><a href="/liquefaction/">Soil liquefaction analysis</a></div></div><div class="cat-item" data-cat="road-geotechnics"><div class="cat-row"><a href="/road-geotechnics/" class="cat-name">Roadway</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Roadway"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/cbr-road/">CBR study for road design</a><a href="/flexible-pavement/">Flexible pavement design</a><a href="/rigid-pavement/">Rigid pavement design</a></div></div><div class="cat-item" data-cat="excavations"><div class="cat-row"><a href="/excavations/" class="cat-name">Excavations</a><button class="cat-toggle" aria-expanded="false" aria-label="Expandir Excavations"><span class="cat-arrow">▼</span></button></div><div class="cat-sub" hidden><a href="/soft-ground-tunnels/">Geotechnical analysis for soft soil tunnels</a><a href="/deep-excavations/">Geotechnical design of deep excavations</a><a href="/excavation-monitoring/">Geotechnical excavation monitoring</a></div></div></nav></aside><main><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">In Darwin's challenging tropical environment, the category of Slopes & Walls encompasses the critical geotechnical engineering disciplines required to design, construct, and maintain stable earth structures. This field addresses the unique intersection of natural topography and built infrastructure, where the region's distinct geological profile demands specialised solutions. From the lateritic escarpments surrounding the harbour to the engineered embankments supporting the Stuart Highway, every intervention must account for the profound influence of the wet-dry tropical cycle on soil behaviour.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">The local geology, dominated by deeply weathered phyllites, siltstones, and residual clay soils, creates a landscape inherently susceptible to instability. The intense monsoonal rainfall between November and April saturates these materials, dramatically reducing their effective shear strength and triggering pore pressure fluctuations that are the primary drivers of slope failure. This makes a rigorous <a href='/slope-stability/'>slope stability analysis</a> not just a design requirement but a fundamental necessity for asset longevity and public safety across the Top End.</p></div></section><section class="block" style="padding:1.5rem"><div style="max-width:1100px;margin:0 auto"><img src="/img/estabilidad-taludes-2.webp" alt="Slopes & Walls in Darwin" loading="eager" decoding="async" style="width:100%;max-height:220px;object-fit:cover;display:block;border-radius:6px;margin:1.5rem 0" fetchpriority="high"></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">All geotechnical works within the Northern Territory must comply with the provisions of the National Construction Code (NCC) and, crucially, the Northern Territory Government's specific guidelines for earthworks and site classification. Adherence to AS 4678-2002 for earth-retaining structures is mandatory, ensuring designs are robust against Darwin's cyclonic wind loads and seismic considerations. These national and territorial standards dictate the load factors, durability requirements, and drainage provisions that underpin every successful retaining structure in the region's aggressive environment.</p><p style="text-align:justify;margin:0 0 1.15rem;line-height:1.75">Typical projects requiring these services range from residential cut-and-fill platforms in suburbs like Nightcliff, where <a href='/retaining-walls/'>retaining wall design</a> must account for highly reactive clays, to major infrastructure corridors such as the Tiger Brennan Drive extension. Commercial developments along the Darwin CBD fringe and mining-related infrastructure in the rural area frequently call for advanced ground stabilisation. For deep excavations or structures resisting high lateral loads, <a href='/anchors/'>active/passive anchor design</a> becomes an integral component, providing the necessary tie-back force to ensure global stability where space is constrained.</p></div></section><section class="block mid-cta-c926-c926" style="padding:2rem 0"><div style="max-width:720px;margin:0 auto;background:linear-gradient(135deg,#16A34A15,#16A34A08);border-left:4px solid #16A34A;padding:1.6rem 1.8rem;border-radius:8px;text-align:center"><h3 style="margin:0 0 .4rem;font-size:1.15rem;color:#1E293B;text-align:center">Need a geotechnical assessment?</h3><p style="margin:0 0 1rem;color:#64748B;font-size:.92rem;text-align:center">Reply within 24h.</p><div style="margin:.4rem 0 0;text-align:center"><a href="mailto:contact@geotechnicalengineering1.xyz" style="display:inline-block;background:#16A34A;color:#FFF !important;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:800;font-size:1.05rem;box-shadow:0 4px 12px rgba(0,0,0,.15)">Email: contact@geotechnicalengineering1.xyz</a></div></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:1200px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Available services</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem"><a href="../anchors/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Active/passive anchor design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../retaining-walls/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Retaining wall design</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a><a href="../slope-stability/" style="display:block;padding:1.2rem;border:1px solid #E5E7EB;border-radius:10px;text-decoration:none;color:inherit;background:#FFFFFF;transition:all .2s;box-shadow:0 1px 2px rgba(0,0,0,.04)" onmouseover="this.style.borderColor='#F43F5E';this.style.transform='translateY(-2px)';this.style.boxShadow='0 4px 14px rgba(0,0,0,.08)'" onmouseout="this.style.borderColor='#E5E7EB';this.style.transform='translateY(0)';this.style.boxShadow='0 1px 2px rgba(0,0,0,.04)'"><h3 style="margin:0 0 .4rem;font-size:1.1rem">Slope stability analysis</h3><span style="font-size:.85rem;color:#666">→ Ver detalle</span></a></div></div></section><section class="block" style="padding:2rem 1.5rem"><div style="max-width:900px;margin:0 auto"><h2 style="margin-bottom:1.5rem;font-weight:700">Questions and answers</h2><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">What are the key design considerations for slopes and retaining walls in Darwin's climate?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">The primary considerations are the intense seasonal rainfall and cyclonic conditions. Designs must prioritise robust drainage systems to manage pore water pressure behind walls and within slopes, which significantly reduces soil strength. Material durability is also critical due to the tropical environment, requiring concrete and steel specifications that resist long-term degradation from constant moisture and potential ground aggressivity.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">Which Australian standards govern the design of earth retaining structures in the Northern Territory?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">The design of earth retaining structures must comply with AS 4678-2002 (Earth-retaining structures). This standard works in conjunction with the National Construction Code and Northern Territory-specific guidelines. It sets out requirements for limit state design, accounting for local loads including cyclonic wind forces on any attached structures, seismic actions, and the specific properties of Darwin's residual soils.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">What triggers a slope stability failure in the Darwin region?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">Failures are most commonly triggered by prolonged or intense monsoonal rainfall that saturates the ground. This infiltration increases the pore water pressure and decreases the effective stress and shear strength of the deeply weathered clay and siltstone profiles. Other triggers include unregulated excavation at the toe of a slope, overloading the crest, or inadequate control of surface water runoff during the wet season.</p></details><details class="faq" style="background:#FFFFFF;border:1px solid #E5E7EB;border-radius:8px;margin-bottom:.6rem;padding:.9rem 1.2rem"><summary style="cursor:pointer;font-weight:600;font-size:1rem">When is an anchored retaining wall solution preferred over a conventional gravity wall?</summary><p style="margin:.7rem 0 0;color:#444;line-height:1.6">An anchored solution is typically preferred when space is limited and a vertical face is required, or where excavation depths are significant. It is also the appropriate choice when lateral earth pressures are too high for a gravity wall to resist economically, or in temporary works for deep infrastructure. The anchors transfer tensile loads into stable ground beyond the active failure zone, providing a secure tie-back.</p></details></div></section><section><h2>Coverage in Darwin</h2><link rel="stylesheet" href="/css/leaflet-b097.css"/><div id="mapa-ciudad"></div><script src="/js/leaflet-b097.js"></script><script>
+var map = L.map('mapa-ciudad').setView([-12.4604,130.841], 12);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png',{attribution:'&copy; OSM &copy; CARTO',subdomains:'abcd',maxZoom:19}).addTo(map);L.marker([-12.4604,130.841],{icon:L.divIcon({html:'<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 36\" width=\"24\" height=\"36\"><path d=\"M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z\" fill=\"#E11D48\" stroke=\"#FFF\" stroke-width=\"1.5\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"#FFF\"/></svg>',className:'',iconSize:[24,36],iconAnchor:[12,36]})}).addTo(map);
+L.circle([-12.4604,130.841],{radius:3000,color:'#8B5CF6',fillColor:'#A78BFA',fillOpacity:0.18,weight:2}).addTo(map).bindPopup('Coverage area — Darwin');
+</script></section></main></div></div><footer style="background:#09090B;color:rgba(255,255,255,.85);padding:3rem 1.5rem 2rem"><div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem"><div><p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.6">Darwin, Australia</p></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">SERVICES</h4><a href="/" style="color:rgba(255,255,255,.75);text-decoration:none;display:block;padding:.25rem 0">Services</a></div><div><h4 style="color:#FFF;font-size:.92rem;margin:0 0 .8rem">TALK TO US</h4><p style="margin:0;font-size:.9rem;line-height:1.8"><a href="mailto:contact@geotechnicalengineering1.xyz" style="color:#FFF;text-decoration:none">contact@geotechnicalengineering1.xyz</a></p></div></div><div style="max-width:1100px;margin:2rem auto 0;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.1);text-align:center;font-size:.8rem;color:rgba(255,255,255,.5)">© 2026 Geotechnicalengineering1. All rights reserved.</div><div data-authority-refs class="authority-refs" style="text-align:center;font-size:.8rem;padding:.5rem 0;opacity:.6"><strong>References:</strong><a href="https://www.standards.org.au/" rel="nofollow noopener" target="_blank">Standards Australia</a> · <a href="https://www.iso.org/committee/49802.html" rel="nofollow noopener" target="_blank">ISO Geotechnical</a></div><div class="updated-info" data-updated="2026-04-19" style="text-align:center;font-size:.85rem;opacity:.7;padding:.5rem 0">Last updated: 2026-04-19</div></footer><script>
 // Sidebar cat-toggle: click expande/contrae cat-sub (REGLA 30b)
 document.addEventListener('click', function(e) {
-    var btn = e.target.closest('.cat-toggle');
-    if (!btn) return;
-    e.preventDefault();
-    var item = btn.closest('.cat-item');
-    if (!item) return;
-    var sub = item.querySelector('.cat-sub');
-    if (!sub) return;
-    var open = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', open ? 'false' : 'true');
-    if (open) {
-        sub.setAttribute('hidden', '');
-    } else {
-        sub.removeAttribute('hidden');
-    }
+var btn = e.target.closest('.cat-toggle');
+if (!btn) return;
+e.preventDefault();
+var item = btn.closest('.cat-item');
+if (!item) return;
+var sub = item.querySelector('.cat-sub');
+if (!sub) return;
+var open = btn.getAttribute('aria-expanded') === 'true';
+btn.setAttribute('aria-expanded', open ? 'false' : 'true');
+if (open) {
+sub.setAttribute('hidden', '');
+} else {
+sub.removeAttribute('hidden');
+}
 });
-</script>
-</body>
-</html>
+</script></body></html>veAttribute('hidden'); }
+});
+</script></body></html>
